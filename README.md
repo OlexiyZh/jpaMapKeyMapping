@@ -1,0 +1,1 @@
+@MapKeyJoinColumn example
