@@ -1,0 +1,21 @@
+<dataset>
+    <flipp_oms.locale id="en" />
+    <flipp_oms.locale id="de" />
+
+    <flipp_oms.currency code="GBP" />
+
+    <flipp_oms.country id="1" currency_code="GBP" timezone_name="America/Fort_Nelson1" />
+    <flipp_oms.country_localized country_id="1" locale_id="en" name="U.K." />
+    <flipp_oms.country_localized country_id="1" locale_id="de" name="U.K.Another" />
+
+    <flipp_oms.marketing_program id="1" country_id="1" receipt_submission_days="5"/>
+    <flipp_oms.marketing_program_localized marketing_program_id="1" locale_id="en" name="U.K._Program" />
+    <flipp_oms.marketing_program_localized marketing_program_id="1" locale_id="de" name="U.K._De_Program" />
+
+
+
+    <flipp_oms.marketing_program id="2" country_id="1" receipt_submission_days="7"/>
+    <flipp_oms.marketing_program_localized marketing_program_id="2" locale_id="en" name="U.K._Program2" />
+    <flipp_oms.marketing_program_localized marketing_program_id="2" locale_id="de" name="U.K._De_Program2" />
+
+</dataset>

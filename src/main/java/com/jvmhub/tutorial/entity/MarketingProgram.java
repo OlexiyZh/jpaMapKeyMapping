@@ -27,4 +27,7 @@ public class MarketingProgram {
     @CollectionTable(name = "MARKETING_PROGRAM_LOCALIZED", joinColumns = @JoinColumn(name = "MARKETING_PROGRAM_ID"))
     private Map<Locale, String> name;
 
+    @Column(name="RECEIPT_SUBMISSION_DAYS")
+    private Integer receiptSubmissionDays;
+
 }
