@@ -9,10 +9,10 @@ import javax.persistence.*;
  */
 @Data
 @Entity
-@Table(name = "Locale")
+@Table(name = "LOCALE")
 public class Locale {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "CODE")
-    private String code;
+    //@GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "ID")
+    private String ID;
 }
